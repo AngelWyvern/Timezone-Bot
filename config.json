@@ -1,20 +1,23 @@
 {
-    "token":"/////-INSERT-BOT-TOKEN-HERE-/////",
-    "channelId":"/////-INSERT-CHANNEL-ID-HERE-/////",
+    "token":"", // Discord Bot Token //
+    "channelId":"", // Discord Channel ID to display information in //
     "admins":
     {
-		"1":"/////-ADMIN-1-/////",
-		"2":"/////-ADMIN-2-/////"
+		// Admins are optional //
+		"1":"", // First admin (optional) //
+		"2":"" // Second admin (optional) //
+		// etc... //
     },
     "timezones":
     {
-        "1":
+        "1": // First timezone
         {
-            "userId":"/////-USER-ID-HERE-/////",
-            "fallbackName":"/////-FALLBACK-NAME-HERE-/////",
-            "offset"://///-HOUR-OFFSET-NUMBER-FROM-HOST-/////,
-            "daylightSavings"://///-TRUE-OR-FALSE-FOR-USER-/////,
-            "format":"/////-DISPLAY-ONLY-FORMAT-/////"
+            "userId":"", // User ID connected to timezone //
+            "fallbackName":"", // Fallback name (only if name can't be retrieved) //
+            "offset":0, // Hour offset number from host (1 hour ahead = 1, 1 hour behind = -1, etc.) //
+            "daylightSavings":true, // True if user uses daylight savings, flase otherwise //
+            "format":"" // Format e.g. EST, CST, GMT, etc. (display only) //
 		}
+		// etc... //
 	}
 }
