@@ -3,21 +3,20 @@
     "channelId":"", // Discord Channel ID to display information in //
     "admins":
     {
-		// Admins are optional //
-		"1":"", // First admin (optional) //
-		"2":"" // Second admin (optional) //
-		// etc... //
+	// Admins are optional //
+	"1":"", // First admin (optional) //
+	"2":"" // Second admin (optional) //
+	// etc... //
     },
     "timezones":
     {
-        "1": // First timezone
+        "1": // First timezone //
         {
             "userId":"", // User ID connected to timezone //
             "fallbackName":"", // Fallback name (only if name can't be retrieved) //
             "offset":0, // Hour offset number from host (1 hour ahead = 1, 1 hour behind = -1, etc.) //
             "daylightSavings":true, // True if user uses daylight savings, flase otherwise //
             "format":"" // Format e.g. EST, CST, GMT, etc. (display only) //
-		}
-		// etc... //
+	    // etc... //
 	}
 }
