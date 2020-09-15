@@ -19,4 +19,5 @@
             "format":"" // Format e.g. EST, CST, GMT, etc. (display only) //
 	    // etc... //
 	}
+    }
 }
