@@ -8,7 +8,7 @@ A simple Discord bot made for keeping track of timezones
 To use this bot, you will need [Node.js](https://nodejs.org/), an open-source, cross-platform JavaScript runtime that is utilized by Timezone Bot. The latest version should work fine, but if you run into any issues, I recommend you try [Node.js Version 12.16.2](https://nodejs.org/download/release/v12.16.2/) instead.
 ## Updating the Dependencies
 ##### Windows
-Run the [update-dependencies.bat](https://github.com/AngelDTF/Timezone-Bot/blob/beta/update-dependencies.bat) file, and it should update the dependencies automatically. If you run into issues using the bot, you can try to run [force-compatibility.bat](https://github.com/AngelDTF/Timezone-Bot/blob/beta/force-compatibility.bat) to install the recommended version of the dependencies.
+Run the [update-dependencies.cmd](https://github.com/AngelDTF/Timezone-Bot/blob/beta/update-dependencies.cmd) file, and it should update the dependencies automatically. If you run into issues using the bot, you can try to run [force-compatibility.cmd](https://github.com/AngelDTF/Timezone-Bot/blob/beta/force-compatibility.cmd) to install the recommended version of the dependencies.
 ##### OSX/Linux
 Run the [update-dependencies.sh](https://github.com/AngelDTF/Timezone-Bot/blob/beta/update-dependencies.sh) file in a terminal window, and it should update the dependencies automatically. If you run into issues using the bot, you can try to run [force-compatibility.sh](https://github.com/AngelDTF/Timezone-Bot/blob/beta/force-compatibility.sh) to install the recommended version of the dependencies.
 ## Running the Bot
