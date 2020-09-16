@@ -7,8 +7,8 @@ The configuration file to the Timezone Bot is vital for it to work. In this docu
     "channelId":"813013327874733235",
     "admins":
     {
-		"1":"767946013008649915",
-		"2":"398494733709899254"
+	"1":"767946013008649915",
+	"2":"398494733709899254"
     },
     "timezones":
     {
@@ -19,7 +19,7 @@ The configuration file to the Timezone Bot is vital for it to work. In this docu
             "offset":0,
             "daylightSavings":true,
             "format":"EST"
-		},
+	},
         "2":
         {
             "userId":"475666227059283079",
@@ -27,7 +27,7 @@ The configuration file to the Timezone Bot is vital for it to work. In this docu
             "offset":-1,
             "daylightSavings":false,
             "format":"CST"
-		}
+	}
     }
 }
 ```
@@ -87,7 +87,7 @@ Now you have to fill out the information for the user.
 * format
   * Enter the user's timezone abbreviation here.
   * Display only, meant to show people what timezone the user is in.
-  * Examples: `"EST"`, `"CST"`, `"GMT"`, etc.
+  * Examples: `"EST"`, `"CST"`, `"GMT"`, etc. <br>
 After you filled out the user info, you should have something similar to this:
 ```
 "1":
