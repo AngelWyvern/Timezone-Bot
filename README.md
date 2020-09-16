@@ -32,4 +32,4 @@ Notes:
 ##### refresh
 > Refreshes the configuration cache
 ##### is dst
-> Prints if daylights savings is active.s
+> Prints if daylights savings is active
