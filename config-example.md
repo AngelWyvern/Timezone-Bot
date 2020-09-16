@@ -87,7 +87,8 @@ Now you have to fill out the information for the user.
 * format
   * Enter the user's timezone abbreviation here.
   * Display only, meant to show people what timezone the user is in.
-  * Examples: `"EST"`, `"CST"`, `"GMT"`, etc. <br>
+  * Examples: `"EST"`, `"CST"`, `"GMT"`, etc.
+  
 After you filled out the user info, you should have something similar to this:
 ```
 "1":
