@@ -19,3 +19,17 @@ You can view our quick guide for setting up the config file at [config-example.m
 Run the [exec.cmd](https://github.com/AngelDTF/Timezone-Bot/blob/beta/exec.cmd) file to open the bot. If you have followed every step correctly, then the bot should be running without any problems, and should be printing some information to the console window.
 ##### OSX/Linux
 Run the [exec.sh](https://github.com/AngelDTF/Timezone-Bot/blob/beta/exec.sh) file to open the bot. If you have followed every step correctly, then the bot should be running without any problems, and should be printing some information to the terminal window.
+
+# List of Commands
+Here is a small list of commands the admins have access to: <br>
+Notes: 
+  * To use them, mention the bot, then type the command (e.g. @Timezone Bot help)
+  * Only the admins specified in the config file have access to these
+  * All commands (except <ins>help</ins>) will delete the response shortly after usage
+
+##### help
+> Prints the help message
+##### refresh
+> Refreshes the configuration cache
+##### is dst
+> Prints if daylights savings is active.s
